@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.logo{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.underline{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 900;
+    color: #F86513;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.navbar-links{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
+.nav-link{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 300px;
+    padding-top: 20px;
+
+}
+
+.hero-h1{
+    font-family: Inconsolata;
+    font-weight: 800;
+    padding-bottom: 5px;
+    display: block;
+
+    font-size: 30px;
+}
+
+.hero-p{
+    font-family: Inconsolata;
+    height: 70px;
+
+    font-size: 20px;
+}
+
+.hero-text{
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+.hero-gif{
+
+    position: relative;
+    top: 110px;
+    left: 100px;
+
+    padding-right: 125px;
+}
+
+.hero-image{
+    width: 370px;
+}
+
+/* ABOUT */
+
+.about{
+    background-color: #131313;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-img-cv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.foto{
+    width: 100px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.about-txt-tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text{
+    padding: 20px;
+}
+
+.about-h1{
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.about-text-h3{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 650;
+    padding-bottom: 7px;
+}
+
+.about-h1-span{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 600;
+
+    color: #F86513;
+}
+
+.about-paragraph{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.tech-stack{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cv-button{
+    margin-top: 30px;
+}
+
+.tech-stack-items{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.tech-item{
+   padding: 7px;
+}
+
+.tech-stack-name{
+    color: #535353;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 560;
+    font-size: 17px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-bottom: 5px;
+}
+
+/* PROJECTS */
+
+.projects-h2{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 600;
+
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.card{
+    background-color: #535353;
+    width: 550px;
+    height: 270px;
+    margin: 20px; 
+}
+
+.card-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.projects-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-image{
+    background-color: #2b2b2b;
+    width: 240px;
+    height: 240px;
+
+}
+
+.card-content{
+    background-color: #2b2b2b;
+    width: 240px;
+    height: 240px;
+}
+
+/* CODE CHALLANGES */
+
+.code-challanges{
+    background-color: #131313
+}
+.code-c-h2{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.code-card{
+    background-color: #535353;
+    width: 300px;
+    height: 300px;
+    margin: 20px; 
+}
+
+.center-code-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.all-code-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 1100px;
+    padding-bottom: 50px;
+}
+
+.code-c-h2{
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+
+
+/* CONTACT */
+
+.contact-h2{
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.contact-h2{
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+.contact-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-logos-items{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.content-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    
+}
