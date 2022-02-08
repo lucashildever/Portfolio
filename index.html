@@ -14,12 +14,12 @@
         <h1><a class="logo" href="#">Lucas<span class="underline">_</span>dev</a></h1>
 
         <div>
-            <ul class="navbar-links">
-                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-                <li class="nav-item"><a href="#home-section" class="nav-link"><span>About</span></a></li>
-                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Projects</span></a></li>
-                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Contact</span></a></li>
-            </ul>
+            <div class="navbar-links">
+                <a class="nav-link" href="#hero">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
 
@@ -36,7 +36,7 @@
     </section>
 
     <!--ABOUT -->
-    <section class="about">
+    <section class="about" id="about">
 
         <h1 class="about-h1">About<span class="underline">_</span></h1>
 
@@ -44,7 +44,7 @@
             <div class="about-content">
                 <div class="about-img-cv">
                     <img class="foto" src="./assets/ft.png" alt="foto">
-                    <button class="cv-button">Download CV</button>
+                    <a class="cv-button" href="#">Download CV</a>
                 </div>
                 <div class="about-text">
                     <h3 class="about-text-h3">LUCAS HILDEVER<span class="underline">_</span></h3>
@@ -79,7 +79,7 @@
 
     </section>
 
-    <section class="projects">
+    <section id="projects">
         <h2 class="projects-h2">Projects<span class="underline">_</span></h2>
         <div class="projects-cards">
             <div class="card">
@@ -87,7 +87,7 @@
                     <div class="card-image">
                         <img class="card-image-image" src="assets/dark-ft.png">
                     </div>
-                    <div class="card-content">
+                    <div class="card-content">  
                         <h3 class="card-content-h3">DARK-MODE</h3>
                         <div class="proj-card-lang">
                             <p class="project-langs">HTML</p>
@@ -96,7 +96,7 @@
                         </div>
                         <p class="card-proj-desc">Website with dark mode function created using HTML, CSS and JavaScript.
                             The page contains a button where you can switch between light and dark mode with one click.</p>
-                        <a href="https://github.com/lucashildever/Dark-Mode.git" target="_blank" rel="noopener noreferrer"><button class="view-code">View Code</button></a>
+                        <a class="cv-button" href="https://github.com/lucashildever/Dark-Mode.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                             <p class="project-langs">JAVASCRIPT</p>
                         </div>
                         <p class="card-proj-desc">Matrix rain effect created with HTML, CSS and JavaScript.</p>
-                        <a href="https://github.com/lucashildever/matrix-rain-effect.git" target="_blank" rel="noopener noreferrer"><button class="view-code">View Code</button></a>
+                        <a button class="cv-button" href="https://github.com/lucashildever/matrix-rain-effect.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                         <p class="card-proj-desc">Website with dark mode function created using HTML, CSS and JavaScript.
                             The page contains a button where you can switch between light and dark mode with one click.</p>
                         
-                        <a href="https://github.com/lucashildever/cadastro-series-csharp.git" target="_blank" rel="noopener noreferrer"><button class="view-code">View Code</button></a>
+                        <a class="cv-button" href="https://github.com/lucashildever/cadastro-series-csharp.git" target="_blank" rel="noopener noreferrer">View Code</a>
                     </div>
                 </div>
             </div>
@@ -148,18 +148,19 @@
                         </div>
                         <p class="card-proj-desc">The browser version of the famous genius game recreated using HTML, CSS and JavaScript.</p>
                         <div class="buttons-org">
-                            <a href="https://github.com/lucashildever/genius-game.git" target="_blank" rel="noopener noreferrer"><button class="view-code">View Code</button></a>
-                            <a href="https://lucashildever.github.io/genius-game/" target="_blank" rel="noopener noreferrer"><button class="view-live">View Live</button></a>
+                            <div class="buttons">
+                                <a class="cv-button" href="https://github.com/lucashildever/genius-game.git" target="_blank" rel="noopener noreferrer">View Code</a>
+                                <a class="view-live" href="https://lucashildever.github.io/genius-game/" target="_blank" rel="noopener noreferrer">View Live</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     </section>
 
     <!-- CODE CHALLANGE -->
-    <section class="code-challanges">
+    <section class="code-challanges" id="code-challanges">
         <h2 class="code-c-h2">Code<span class="underline">_</span>Challanges</h2>
         <div class="center-code-cards">
             <div class="all-code-cards">
@@ -172,14 +173,14 @@
                             <p class="project-langs">CSS</p>
                             <p class="project-langs">JAVASCRIPT</p>
                         </div>
-                        <button class="view-code-challange">View Code</button>
+                        <a class="cv-button-challange" href="#">View Code</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contact">
         <h2 class="contact-h2">Contact<span class="underline">_</span></h2>
         <div class="content-contact">
             <div class="contact-logos">
